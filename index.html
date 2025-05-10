@@ -19,14 +19,14 @@
 	"weapons": [
 		{
 			"id": 0,
-			"src": "hammer",
-			"width": 140,
-			"length": 140,
+			"src": "musket",
+			"width": 205,
+			"length": 205,
 			"xOff": -3,
 			"yOff": 18,
 			"type": 0,
-			"name": "tool hammer",
-			"desc": "tool for gathering all resources"
+			"name": "dildo",
+			"desc": "tool for raping adults"
 		},
 		{
 			"id": 1,
@@ -134,15 +134,21 @@
 			"projectile": 0
 		},
 		{
-			"id": 15,
-			"src": "great_hammer",
-			"width": 140,
-			"length": 140,
-			"xOff": -9,
-			"yOff": 25,
+			"id": 10,
+			"src": "musket",
+			"width": 205,
+			"length": 205,
+			"xOff": 25,
+			"yOff": 0,
 			"type": 1,
-			"name": "great hammer",
-			"desc": "hammer used for destroying structures"
+			"name": "musket",
+			"desc": "slow firerate but high damage and range",
+			"aboveHand": true,
+			"projectile": 5,
+			"hideProjectile": true,
+			"armS": 0.6,
+			"hndS": 0.3,
+			"hndD": 1.6
 		},
 		{
 			"id": 11,
@@ -185,21 +191,15 @@
 		},
 		{ "id": 14, "src": "grabber", "width": 210, "length": 130, "xOff": -8, "yOff": 53, "type": 1, "name": "grabber", "desc": "steals gold from enemies" },
 		{
-			"id": 10,
-			"src": "musket",
+			"id": 15,
+			"src": "great_hammer",
 			"width": 205,
 			"length": 205,
 			"xOff": 25,
 			"yOff": 0,
 			"type": 1,
-			"name": "musket",
+			"name": "great hammer",
 			"desc": "slow firerate but high damage and range",
-			"aboveHand": true,
-			"projectile": 5,
-			"hideProjectile": true,
-			"armS": 0.6,
-			"hndS": 0.3,
-			"hndD": 1.6
 		},
 		{
 			"id": 16,
@@ -308,8 +308,8 @@
 		{ "src": "turret", "scale": 160, "spriteMlt": 1 },
 		{ "src": "arrow", "scale": 103, "spriteMlt": 1 },
 		{ "src": "arrow", "scale": 103, "spriteMlt": 1 },
+		{ "src": "bullet", "scale": 160,  "spriteMlt": 1 },
 		{ "src": "fireball", "scale": 100, "spin": true, "spriteMlt": 1.6 },
-		{ "src": "bullet", "scale": 160, "spriteMlt": 1 },
 		{ "src": "hook", "scale": 120, "spriteMlt": 1, "startD": 110, "trail": 1 }
 	],
 	"ais": [
@@ -380,14 +380,14 @@
 	"iconPadding": 15,
 	"iconPad": 0.9,
 	"playerScale": 35,
-	"playerMaxHealth": 100,
+	"playerMaxHealth": 1000,
 	"playerMaxAge": 100,
 	"nameY": 34,
 	"crownIconScale": 60,
 	"crownPad": 35,
-	"healthBarWidth": 50,
-	"healthBarPad": 4.5,
+	"healthBarWidth": 100,
+	"healthBarPad": 9,
 	"deathFadeout": 2000,
 	"grappleStyle": { "hex": "#846e68", "width": 9, "lineHex": "#494947", "lineWidth": 19 },
-	"serverUpdateRate": 9
+	"serverUpdateRate": 1
 }
